@@ -15,9 +15,9 @@ public class Main
 	public static BigInteger GCD (BigInteger a, BigInteger b)
 	{
 		if (b.equals(BigInteger.valueOf(0)))
-			return a;
+		    return a;
 		else
-			return GCD (b,a.mod(b));
+	            return GCD (b,a.mod(b));
 	}
 
 	public static void main (String[] args)
